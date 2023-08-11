@@ -1,6 +1,6 @@
 @font-face {
     font-family: kollektif;
-    src: url(/kollektif/Kollektif.ttf);
+    src: url(../kollektif/Kollektif.ttf);
 }
 
 /* ESTILOS PARA EL NAVBAR */
@@ -127,11 +127,11 @@ hr{
         width: 15vw;
     }   
     .menu-principal{
-        font-size: 1.2vw;    
+        font-size: 1.8vw;    
     }
     
     .repair-express{
-        font-size: 1.4vw;
+        font-size: 1.9vw;
     }
     
     .logo{
@@ -139,8 +139,8 @@ hr{
         background-repeat: no-repeat;
         background-size: contain;
         background-position:center;
-        width: 25vw;
-        height: 10vw;
+        width: 30vw;
+        height: 13vw;
     }
     
     .userID{
@@ -149,9 +149,9 @@ hr{
         background-size: contain;
         background-position: right;
         position: fixed;
-        width: 5vw;
-        height: 5vw;
-        right: 5vw;
+        width: 6vw;
+        height: 6vw;
+        right: 6vw;
     }
     
     hr{
@@ -160,5 +160,40 @@ hr{
         margin-right: 10vw;
         width: 80%;
     }
+    #toolrepair{
+        padding-top: 3vw;
+        width: 10vw;
+        height: 10vw;
+    }
+
+    #encabezado h3{
+        padding-top: 4vw;
+        font-size: 3.5vw;
+    }
+    #checkbox{
+        width: 35vw;
+        height:35vw;
+    }
+    #mensajefinal{
+        font-size: 4vw;
+        text-align: center;
+        line-height: 5vw;
+        width: 80vw;
+    }
     
+    .transaccion{
+        font-size: 5vw;
+        margin: 0%;
+    }
+    .button1{
+        background-color: #0165fa;
+        border: 1px solid #0165fa;
+        width: 35vw;
+        margin-top: 2vw;
+        height: 5vw;
+        border-radius: 2vw;
+    }
+    #contenido a {
+        font-size: 3.5vw;
+    }
 }

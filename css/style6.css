@@ -253,7 +253,7 @@ hr{
 
 @media (max-width:435px){
     .texto{
-        width: 30vw;
+        width: 40vw;
     }
     #bloque1{
         display: flex;
@@ -262,8 +262,24 @@ hr{
         width: 90vw;
         margin: 5vw 5vw 0vw 5vw;
     }
+    
+    .texto-bienvenida{
+    padding-top: 0.8vw;
+    font-size: 3vw;
+    }
+
+    .textoinicio{
+    padding-top: 0.8vw;
+    font-size: 2vw;
+    }
+
+    .profile{
+        width: 10vw;
+        padding-top: 0.8vw;
+    }
     .texto-1{
-        width: 30vw;
+        font-size: 2vw;
+        width: 40vw;
     }
     .bloqueinfo{
         display: flex;
@@ -300,18 +316,18 @@ hr{
     }
     .subtitle{
         padding-top: 3.1vw;
-        font-size: 1.5vw;
+        font-size: 3vw;
         text-align: center; 
     }
     
     .texto{
-        font-size: 1vw;
+        font-size: 2vw;
         text-align: center;
         padding: 1vw;
     }
     .subtitle-1{
         padding-top: 3.1vw;
-        font-size: 1.5vw;
+        font-size: 3.1vw;
         text-align: center; 
     }
     .subtexto{
@@ -362,4 +378,93 @@ hr{
         position: relative;
         right: 30vw;
     }
+    .bloqueinfo h3{
+        font-size: 3vw;
+    }
+    .imginfo{
+        width: 30vw;
+    }
+
+    #bloquemaps{
+        width: 35vw;
+        align-items: center;
+    }
+
+    #bloquemaps2{
+        width: 25vw;
+    }
+
+    .subtexto{
+        font-size: 2vw;
+        padding: 0vw 0vw 0vw 3vw;
+    }
+    #bloquebutton{
+        width: 10vw;
+        padding: 0vw 3vw 0vw 0vw;
+    }
+    .button2{
+        font-size: 1.5vw;       
+    }
+
+    #bloquemaps3{
+        margin-top: 0.2vw;
+        margin-bottom: 0.2vw;
+        width: 29vw;
+    }
+
+    #bloquemaps31{
+        display: flex;
+        justify-content: center;
+        width: 3vw;
+    }
+
+    #bloquemaps31 img{
+        width: 1.8;
+    }
+    
+    #bloquemaps32{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 28vw;
+        font-size: 1.5vw;
+        text-align: justify;
+        font-weight: 300;
+        padding-left: 0.8vw;
+    }
+
+    #tecnico {
+        width: 30vw;
+        font-size: 1.5vw;
+        margin-bottom: 0.8vw;
+    }
+
+    #nombretecnico {
+        width: 25vw;
+        padding-left: 2vw;
+        font-size: 1.5vw;
+    }
+    #nombretecnico p:nth-of-type(2){
+        width: 25vw;
+        font-size: 1.5vw;
+    }
+
+    #redes{
+        width: 30vw;
+        justify-content: center;
+        margin-top: 0.2vw;
+    }
+
+    .button3{
+        width: 12vw;
+        height: 3.5vw;
+        border-radius: 2vw;
+    }
+    
+    .bloqueinfo a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5vw;
+    }
+    
 }
