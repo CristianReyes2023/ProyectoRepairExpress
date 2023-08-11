@@ -1,0 +1,365 @@
+@font-face {
+    font-family: kollektif;
+    src: url(../kollektif/Kollektif.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ESTILOS PARA EL NAVBAR */
+body{
+    font-family: kollektif;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 7vw;
+    gap: 8vw;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+    width: 15vw;
+}   
+.menu-principal{
+    font-size: 1.2vw;    
+}
+
+.repair-express{
+    font-size: 1.4vw;
+}
+
+.logo{
+    background-image: url(../imagenes/RepairExpress2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    width: 25vw;
+    height: 10vw;
+}
+
+.userID{
+    background-image: url(../imagenes/Imagen\ 3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    right: 5vw;
+}
+
+hr{
+    margin: 0vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80%;
+}
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: fit-content;
+    text-align: center;
+}
+
+.profile{
+    width: 5vw;
+    padding-top: 0.8vw;
+}
+
+.texto-bienvenida{
+    padding-top: 0.8vw;
+    font-size: 1.7vw;
+}
+
+.textoinicio{
+    padding-top: 0.8vw;
+    font-size: 1vw;
+}
+#bloque1{
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    height: 28vw;
+}
+
+.bloqueinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33vw;
+}
+.bloqueinfo:nth-of-type(3){
+    padding-top: 0.9vw;
+    
+}
+.subtitle{
+    font-size: 1.5vw;
+    text-align: center;
+    padding-top: 1.5vw;
+}
+
+.texto{
+    font-size: 1vw;
+    text-align: center;
+    padding: 1vw;
+}
+
+.subtitle-1{
+    padding-top: 3.1vw;
+    font-size: 1.5vw;
+    text-align: center; 
+}
+
+.texto-1{
+    font-size: 1vw;
+    text-align: center;
+    padding: 1vw;
+}
+
+.button1{
+    width: 9vw;
+    height: 3vw;
+    border-radius: 2vw;
+    background-color: #0165fa;
+    color:white;
+    border: none;
+    font-size: 1.5vw;
+}
+.imginfo{
+    width: 17vw;
+}
+
+.bloqueinfo h3{
+    font-size: 1.5vw;
+    padding-bottom: 0.8vw;
+}
+
+#bloquemaps{
+    display: flex;
+    width: 21.3vw;
+    justify-content: center;
+}
+#bloquemaps2{
+    display: flex;
+    flex-direction: column;
+    width: 12.6vw;
+}
+#bloquebutton{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    
+}
+#bloquemaps3{
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    display: flex;
+    width: 17.4vw;
+}
+
+#bloquemaps31{
+    display: flex;
+    justify-content: center;
+    width: 2vw;
+}
+
+#bloquemaps32{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 18vw;
+    font-size: 0.9vw;
+    text-align: justify;
+    font-weight: 300;
+    padding-left: 0.8vw;
+}
+#bloquemaps32 p:nth-of-type(2){
+    color: gray;
+}
+.imginfo2{
+    height: 3vw;
+}
+.button2{
+    width: 3vw;
+    height: 1.4vw;
+    border-radius: 0.8vw;
+    background-color: rgb(245, 0, 0);
+    font-size: 0.6vw;
+    color:white;
+    border: none;
+}
+.subtexto{
+    font-size: 0.8vw;
+    text-align: start;
+    color: gray;
+}
+#tecnico {
+    width: 17.4vw;
+    text-align: start;
+    font-size: 1vw;
+    margin-bottom: 0.8vw;
+}
+#nombretecnico {
+    width: 17.4vw;
+    padding-left: 4vw;
+    text-align: start;
+    font-size: 1vw;
+}
+#nombretecnico p:nth-of-type(2){
+    width: 14vw;
+    padding-left: 5vw;
+    text-align: start;
+    font-size: 1vw;
+    color: gray;
+}
+#nombretecnico img{
+    width: 12%;
+    font-size: calc(1px + 1.2vw);
+}
+#redes{
+    display: flex;
+    width: 12vw;
+    justify-content: end;
+    margin-top: 1vw;
+}
+.button3{
+    width: 8vw;
+    height: 2vw;
+    align-self: flex-end;
+    border-radius: 1vw;
+    background-color: #0165fa;
+    border: none;
+    font-size: 0.8vw;
+}
+
+.bloqueinfo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1vw;
+}
+
+@media (max-width:435px){
+    .texto{
+        width: 30vw;
+    }
+    #bloque1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        margin: 5vw 5vw 0vw 5vw;
+    }
+    .texto-1{
+        width: 30vw;
+    }
+    .bloqueinfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 80vw;
+        margin: 0vw 0vw 1vw 0vw;
+    }
+    .bloqueinfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 90vw;
+    }
+    #bloquebutton{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 5vw;
+        height: 3vw;
+        
+    }
+    .bloqueinfo:nth-of-type(3){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        top: 0vw;
+        margin: 3vw 0vw 0vw 0vw;
+        width: 90vw;
+    }
+    .subtitle{
+        padding-top: 3.1vw;
+        font-size: 1.5vw;
+        text-align: center; 
+    }
+    
+    .texto{
+        font-size: 1vw;
+        text-align: center;
+        padding: 1vw;
+    }
+    .subtitle-1{
+        padding-top: 3.1vw;
+        font-size: 1.5vw;
+        text-align: center; 
+    }
+    .subtexto{
+        font-size: 2vw;
+        text-align: start;
+        padding: 0vw 2vw 0vw 2vw;
+        color: gray;
+        font-size: 0.8vw;
+    }
+    .button2{
+    width: 100vw;
+    height: 2vw;
+    margin: 0vw 0vw 0vw 2vw;
+    border-radius: 2vw;
+    background-color: rgb(245, 0, 0);
+    font-size: 0.6vw;
+    color:white;
+    border: none;
+    }
+    #bloquemaps32{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80vw;
+        font-size: 1vw;
+        text-align: justify;
+        font-weight: 300;
+        padding: 0vw 2vw 0vw 2vw;
+    }
+    #nombretecnico {
+        width: 80vw;
+        padding: 0vw 0vw 0vw 62.5vw;
+        font-size: 1vw;
+    }
+    #nombretecnico p:nth-of-type(2){
+        width: 80vw;
+        padding: 0vw 0vw 0vw 0vw;
+        font-size:1vw;
+        color: gray;
+    }
+    #redes{
+        display: flex;
+        width: 10vw;
+        justify-content: end;
+        margin-top: 1vw;
+    }
+    .button3{
+        position: relative;
+        right: 30vw;
+    }
+}

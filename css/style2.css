@@ -1,0 +1,427 @@
+@font-face {
+    font-family: kollektif;
+    src: url(../kollektif/Kollektif.ttf);
+    font-size: 16px;
+}
+
+/* ESTILOS PARA EL NAVBAR */
+body{
+    font-family: kollektif;
+    font-size: 1vw;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 8vw;
+    gap: 8vw;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+    width: 15vw;
+}   
+.menu-principal{
+    font-size: 1.2vw;    
+}
+
+.repair-express{
+    font-size: 1.4vw;
+}
+
+.logo{
+    background-image: url(../imagenes/RepairExpress2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    width: 25vw;
+    height: 10vw;
+}
+
+.userID{
+    background-image: url(../imagenes/Imagen\ 3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    right: 5vw;
+}
+
+hr{
+    margin: 0vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80%;
+}
+
+/* ESTILOS PARA EL CONTENIDO DE LA PAGINA*/
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 40vw;
+}
+
+#encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1vw;
+    width: 100vw;
+    height: 15vw;
+}
+
+.imagen-encabezado{
+    background-image: url(../imagenes/encabezado.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+#encabezado h2{
+    font-size: 1.2vw;
+    margin: 0vw;
+}
+
+#encabezado p{
+    margin: 0vw;    
+    font-size: 1vw;
+}
+#container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90vw;
+    height: 80vw;
+}
+
+.servicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30vw;
+    height: 30vw;
+}
+
+.servicio p{
+    margin: 0vw;
+    font-size: 1.5vw;
+}
+
+.servicio figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1vw;
+    margin: 0%;
+    width: 30vw;
+    height: 14vw;
+}
+
+.contorno2{
+    height: 10vw;
+}
+
+.contorno2 .bateria, .contorno2 .software{
+    padding-top: 2vw;
+}
+
+.contorno2 .ipad{
+    padding-top: 1vw;
+}
+
+.contorno-mac{
+    height: 10vw;
+}
+
+.mac{
+    padding-top: 1.5vw;
+    height: 5vw;
+}
+
+.contorno{
+    text-align: center;
+    padding: 1vh;
+    width: 5vw;
+    height: 9vw;
+    background-color: #0165fa;
+    border: 1px solid #0165fa;
+    border-radius: 1vw;
+    color: #fff;
+}
+
+.mac{
+    width: 5vw;
+    height: 5vw;
+}
+
+.ipad{
+    width: 4vw;
+    height: 5.5vw;
+}
+
+.bateria{
+    width: 2vw;
+    height: 3.5vw;
+}
+
+.software{
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+/* .servicio figcaption{
+    padding-top: 0.3vw;
+}    */
+
+.contorno img{
+    width: 3.3vw;
+    height: 7vw;
+}
+
+.servicio form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 25vw;
+    height: 10vw;
+}
+
+.servicio input{
+    width: 18vw;
+    height: 1vw;
+    padding: 0.8vw;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.servicio button{
+    background-color: transparent;
+    border: none;
+    font-size: 2.5vw;
+    padding: 0%;
+}   
+
+.continuar button{
+    background-color: #0165fa;  
+    border: 1px solid #0165fa;
+    width: 10vw;
+    height: 3.5vw;
+    border-radius: 2vw;
+}
+
+.continuar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2vw;
+}
+
+/* ESTILOS PARA LAS PANTALLAS PEQUEÑAS*/
+
+@media (max-width:435px){
+    .body{
+        font-size: 0.8vw;
+    }
+
+    #navbar{
+        width: 100vw;
+        height: 15vw;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        z-index: 0;
+        gap: 8vw;
+    }
+
+    hr{
+        margin-top: 15vw;
+        position: fixed;
+    }
+    #navbar a{
+        width: 21vw;
+    }   
+
+    .userID{
+        width: 7.5vw;
+        height: 7.5vw;
+        right: 1vw;
+    }
+    .logo{
+        width: 30vw;
+        height: 20vh;
+    }   
+
+    .menu-principal{
+        font-size: 1.5vw;    
+    }
+    
+    .repair-express{    
+        font-size: 1.7vw;
+    }
+
+    #contenido{
+        padding-top: 15.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100vw;
+        height: 300vw;
+    }
+
+    #encabezado{
+    width: 100vw;
+    justify-content: start;
+    padding-top: 5vw;
+    gap: 2vw;
+    height: 20vw;
+    }
+
+    .imagen-encabezado{
+    width: 8vw;
+    height: 8vw;   
+    }
+
+    #encabezado h2{
+    font-size: 3vw;
+    }
+
+    #encabezado p{
+    font-size: 2vw;
+    }
+
+    #container1{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 220vw;
+    }
+
+    .servicio{
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+    }
+
+    .servicio p{    
+        font-size: 3vw;
+    }
+
+    .servicio figure{
+        justify-content: space-evenly;
+        align-items: start;
+        column-gap:0vw;
+        margin: 0%;
+        width: 100vw;
+        height: 30vw;
+        margin: 4vw 0vw 0vw 0vw;
+    }
+
+    .servicio button{
+        display: none;
+    }
+
+    .contorno{
+        width: 18vw;
+        height: 24vw;
+        background-color: #0165fa;
+        border: 1px solid #0165fa;
+        border-radius: 1vw;
+        color: #fff;
+    }
+
+    .contorno2{
+        width: 20vw;
+        height: 25vw;
+        padding: 3vw 0vw 0vw 0vw ;
+    }
+
+    .contorno img{
+        width: 10vw;
+        height: 20vw;
+    }
+
+    .servicio figcaption{
+        padding-top: 0.5vw;
+        font-size: 3vw;
+    }   
+
+    .contorno-mac{
+        height: 24vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mac{
+        width: 15vw;
+        height: 18vh;
+    }
+    
+    .ipad{
+        width: 12vw;
+        height: 18vh;
+
+    }
+    
+    .bateria{
+        width: 8vw;
+        height: 14vw;
+    }
+    
+    .software{
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .servicio form{
+        justify-content: space-evenly;
+        align-items: start;
+        width: 65vw;
+        height: 40vw;
+    }
+
+    .servicio label{
+        font-size: 3vw;
+    }
+
+    .servicio input{
+        width: 65vw;
+        height: 5vw;
+        padding: 2.5vw;
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+
+    #modelo::placeholder, #serial::placeholder,#fecha::placeholder{
+        font-size: 3.5vw;
+    }
+
+    .continuar button{
+        width: 20vw;
+        height: 6vw;
+        font-size: 2vw;
+        padding: 0vw;
+    }
+    .continuar a{
+        font-size: 1.8vw;
+    }
+}
+
+

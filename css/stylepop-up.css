@@ -1,0 +1,80 @@
+.popup {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    grid-area: top;
+    visibility: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup-cuadrado {
+    width: 40vw;
+    height: 40vw;
+    background-color: white;
+    border-radius: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox-button-open {
+    padding: 1vw 1vw;
+    font-size: 1.3vw;
+    color: white;
+    background-color: #0050f5;
+    border-radius: 3vw;
+    cursor: pointer;
+    display: inline-block;
+    user-select: none;
+    height: 1.6vw;
+    position: relative;
+    top: 31.6vw;
+    right: -24vw;
+    width: 10vw;
+    text-align: center;
+}
+
+.checkbox-button-close {
+    visibility: hidden;
+    font-size: 2vw;
+    color: red;
+    cursor: pointer;
+}
+
+/* Ocultar el input checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+#checkbox-btn[type="checkbox"]:checked + .checkbox-button-open {
+    background-color: #c3ff00;
+}
+#checkbox-btn[type="checkbox"]:checked ~ .popup {
+    visibility: visible;
+}
+.oculto {
+    font-size: 3vw;
+    z-index: 400;
+    bottom: 8vw;
+    position: relative;
+    left: 15vw;
+}
+
+
+.logo-popup {
+    width: 12vw;
+    height: 6.5vw;
+    z-index: 200;
+}
+.popup-id-text1 {
+    font-size: 1.5vw;
+    height: 6.5vw;
+    z-index: 200;
+}
+.top-bottom img {
+    width: 14vw;
+}

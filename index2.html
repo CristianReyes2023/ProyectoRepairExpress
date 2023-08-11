@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <a class="menu-principal" href="index.html">Menú Principal</a>
+        <div class="logo"></div>
+        <a class="repair-express" href="index6.html">Repair  Express ID</a>
+        <div class="userID"></div>
+    </nav>
+    <hr>
+
+    <section id="contenido">
+
+        <div id="encabezado">
+            <div class="imagen-encabezado"></div>
+            <h2>Reservar</h2>
+            <p>Por favor llenar los datos siguientes</p>    
+        </div>
+
+        <div id="container1">
+            <div class="servicio">
+                <p>¿Qué dispositivo tienes?</p>
+                <figure>
+                    <button><i class='bx bx-left-arrow-alt'></i></button>
+                    <div class="contorno-mac">
+                        <img class="mac" src="imagenes/macbook.png" alt="mac">
+                        <figcaption>Mac</figcaption>
+
+                    </div>
+                    
+                    <div class="contorno">
+                        <img src="imagenes/Iphone.png" alt="iphone">
+                        <figcaption>iPhone</figcaption>
+                    </div>
+                    
+                    <div class="contorno2">
+                        <img class="ipad" src="imagenes/Ipad.png" alt="">
+                        <figcaption>iPad</figcaption>
+                    </div>
+                    <button><i class='bx bx-right-arrow-alt' ></i></button>
+                </figure>
+
+                <form>
+                    <label for="modelo">¿Qué dispositivo tienes?</label>
+                    <input id="modelo" name="modelo" placeholder="iPhoneX" type="text">
+
+                    <label for="serial">Ingresa el número de serial</label>
+                    <input id="serial" name="serial" type="text" placeholder="F2MTT6FGHCL8">
+                </form>
+            </div>
+
+            <div class="servicio">
+                <p>¿Qué Servicio Deseas?</p>
+                <figure>
+                    <button><i class='bx bx-left-arrow-alt'></i></button>
+
+                    <div class="contorno2">
+                        <img class="bateria" src="imagenes/batteryIcon.png" alt="mac">
+                        <figcaption>Bateria</figcaption>
+                    </div>
+                    
+                    <div class="contorno">
+                        <img class="icono-blanco" src="imagenes/icono-blanco.png" alt="iphone">
+                        <figcaption>Pantalla</figcaption>
+                    </div>
+                    
+                    <div class="contorno2">
+                        <img class="software" src="imagenes/crossIcon.png" alt="">
+                        <figcaption>Software</figcaption>
+                    </div>
+                    
+                    <button><i class='bx bx-right-arrow-alt' ></i></button>
+                </figure>
+
+                <form>
+                    <label for="direccion">Dirección</label>
+                    <input id="direccion" name="direccion" type="text">
+
+                    <label for="fecha">Fecha de reparación</label>
+                    <input id="fecha" name="fecha" type="date">
+                </form>
+            </div>
+
+            <div class="continuar">
+                <button ><a href="./index3.html">Continuar</a></button>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <title>Pagos</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <a class="menu-principal" href="index.html">Menú Principal</a>
+        <div class="logo"></div>
+        <a class="repair-express" href="index6.html">Repair  Express ID</a>
+        <div class="userID"></div>
+    </nav>
+
+    <hr>
+    
+    <section id="principal">
+        <div id="encabezado">
+            <div class="imagen-pago"></div>
+            <h2>Pagar</h2>
+            <p>Llena tus datos de facturación. Si ya los tienes registrados en tu Repair Express ID el sistema los ingresará automáticamente</p>    
+        </div>
+
+        <div id="cuerpo">
+            <div id="columna1">
+                <div>
+                    <h3>Contacto de Facturación</h3>
+                    <p>Si lo tienes registrado en tu Repair Express ID el sistema los llenará automáticamente</p>
+                </div>
+                <div class="nombres">
+                    <div>
+                        <label for="nombre1">Primer Nombre</label>
+                        <input id="nombre1" name="nombre1" type="text">
+                    </div>
+                    
+                    <div>
+                        <label for="nombre2">Segundo Nombre</label>
+                        <input id="nombre2" name="nombre2" type="text">
+                    </div>
+                </div>
+                <div class="codigo-postal">
+                    <div>
+                        <label for="postal">Código de Área</label>
+                        <input id="postal" name="postal" type="text">
+                    </div>
+                    <div>
+                        <label for="celular">Número de Contacto</label>
+                        <input id="celular" name="celular" type="phone">
+                    </div>
+                </div>
+                <div class="correo-electronico">
+                    <label for="correo">Correo Electrónico</label>
+                    <input id="correo" name="correo" type="email">
+                </div>
+            </div>
+
+            <div id="columna2">
+                <div class="pagos">
+                    <h3>Métodos de Pago</h3>
+                    <div class="tarjetas">
+                        <img class="visa" src="imagenes/logo-visa.svg" alt="visa">
+                        <img class="master" src="imagenes/logo-mastercard.png" alt="mastercard">
+                        <img class="american" src="imagenes/logo-american.png" alt="american-express">
+                    </div>
+                </div>
+                <div class="num-tarjeta">
+                    <label for="numero-tarjeta">Número de tarjeta</label>
+                    <input id="numero-tarjeta" name="numero-tarjeta" type="text">
+                </div>
+                <div class="info-tarjeta">
+                    <div>
+                        <label for="cvv">CVV</label>
+                        <input id="cvv" name="cvv" type="text">
+                    </div>
+                        
+                    <div> 
+                        <label for="fecha-expedicion">Fecha de Expedición</label>
+                        <input id="fecha-expedicion" name="fecha-expedicion" type="date">
+                    </div>
+                </div>
+            </div>
+
+            <div id="columna3">
+                <h3>Tu Orden</h3>
+                <div class="separador2">
+                    <p class="fecha-mantenimiento">Viernes Abril 23 del 2021, 6:00pm</p>
+                    <div class="info-mantenimiento">
+                        <p>1xCambio de Pantalla iPhone X </p>
+                        <p> $600,000 COP</p>
+                    </div>
+                </div>
+
+                <div class="separador3">
+                    <div class="subtotal">
+                        <p>Subtotal</p>
+                        <p>$486,000 COP</p>
+                    </div>
+
+                    <div class="iva">
+                        <p>IVA (19%)</p>
+                        <p>$114,000 COP</p>
+                    </div>
+                </div>
+
+                <div class="total">
+                    <p>Total</p>
+                    <p>$600,000 COP</p>
+                </div>
+
+                <p class="nota">Recuerda que el sistema hará una retención del dinero, donde se liberará solamente cuando la reparación este totalmente realizada</p>
+                <button><a href="index4.html">Continuar</a></button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

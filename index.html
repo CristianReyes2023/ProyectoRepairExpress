@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RepairExpress</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @font-face {
+            font-family: kollektif;
+            src: url(kollektif/Kollektif.ttf);
+        }
+    </style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main>
+        <div class="bloque1">
+            <div class="bloque11">
+                <img src="imagenes/RepairExpress.png" alt="RepairExpressLogo">
+                <p>¿Se daño la pantalla de tu iPhone?<br>
+                    No te preocupes,nosotros<br>
+                    nos encargamos de repararlo.</p>
+                <p id="solicitud">Solicita ya tu reparación a domicilio por técnicos especializados</p>
+                <div class="buttons">
+                    <a class="button-reparar" href="index6.html"><button class="button1">Reparar ya</button></a>
+                    <label for="checkbox-btn" class="checkbox-button-open">Revisar Servicio</label>
+                    <!-- <label for="checkbox-btn-datos" class="checkbox-button-open">Revisar Servicio</label> -->
+                </div>
+                <div class="garantia">
+                    <img src="imagenes/Warranty.png" alt="Warranty">
+                    <img src="imagenes/48h.png" alt="48h">
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div class="bloque12">
+                <img src="imagenes/bx-globe.png" alt="Mundo" id="mundo">
+                <img src="imagenes/iPhoneTransparente.png" alt="iPhoneroto" id="iphoneroto">
+            </div>
+        </div>
+        <input type="checkbox" id="checkbox-btn">
+        <div class="popup">
+            <div class="popup-cuadrado">
+                <label for="checkbox-btn" class="oculto"><i class='bx bxs-exit'></i></label>
+                <div class="popup-registro">
+                    <img class="logo-popup" src="imagenes/RepairExpress.png" alt="logo">
+                    <p class="popup-id-text1">Por favor ingresa tu Repair Express ID</p>
+                    <div class="id">
+                        <label for="documento" >Repair Express ID</label>
+                        <input id="documento" type="text" name="documento" class="imput-registro">
+                    </div>
+                    <div class="contraseña">
+                        <label for="contraseña" >Contraseña</label>
+                        <input id="contraseña" type="password" name="contraseña" class="imput-registro">
+                    </div>
+                    <div class="popup-buttons">
+                        <a href="index6.html"><button class="button1">Ingresar</button></a>
+                        <label for="checkbox-btn-datos" class="checkbox-button-open">Revisar Servicio</label>
+                    </div>
+                    <hr>
+                    <div class="popup-redes">
+                        <img src="imagenes/bxl-google.png" alt="google" class="redes-registro">
+                        <img src="imagenes/bxl-facebook-circle.png" alt="facebook" class="redes-registro">
+                        <img src="imagenes/bxl-apple.png" alt="apple" class="redes-registro">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="checkbox" id="checkbox-btn-datos">
+        <div class="popup-datos">
+            <div class="popup-cuadrado-datos">
+                <label for="checkbox-btn-datos" class="oculto-datos"><i class='bx bxs-exit'></i></label>
+                <div class="popup-registro-datos">
+                    <img class="logo-popup" src="imagenes/RepairExpress.png" alt="logo">
+                    <p class="popup-id-text1-datos">Por favor ingresa los siguientes datos personales</p>
+                    <div class="id-datos">
+                        <label for="documento" >Correo Electrónico (Este será tu Repair Express ID)</label>
+                        <input id="documento" type="text" name="documento" class="imput-registro-datos">
+                    </div>
+                    <div class="contraseña-datos">
+                        <label for="contraseña-datos" >Contraseña</label>
+                        <input id="contraseña-datos" type="password" name="contraseña" class="imput-registro-datos">
+                    </div>
+                    <div class="contraseña-datos">
+                        <label for="contraseña-repetir" >Repetir Contraseña</label>
+                        <input id="contraseña-repetir" type="password" name="contraseña-repetir" class="imput-registro-datos">
+                    </div>
+                    <div class="contraseña-datos">
+                        <label for="date" >Fecha de Nacimiento</label>
+                        <input id="date" type="date" name="date" class="imput-registro-date">
+                    </div>
+                    <div class="contraseña-datos">
+                        <label for="address" >Dirección</label>
+                        <input id="address" type="address" name="address" class="imput-registro-datos">
+                    </div>
+                    <div class="popup-buttons-datos"><a href="index6.html" class="linkingresar"><button class="buttondatos">Ingresar</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bloque2">
+            <div id="bloque21">
+                <p class="title2">Es tan fácil como contar del 1 al 3</p>
+                <p class="subtitle2">Nuestro servicio solamente tiene 3 pasos a seguir para obtenerlo</p>
+            </div>
+            <div id="bloque22">
+                <div>
+                    <img src="imagenes/Icon awesome-calendar-check.png" alt="Check" class="bloque2imgs">
+                    <p class="title2">Reservar</p>
+                    <p class="texto2">Elige el dispositivo que quieres arreglar, asignas el día y te notificamos cuando
+                        el técnico asignado llegue a su domicilio</p>
+                </div>
+                <div>
+                    <img src="imagenes/Icon ionic-ios-cash.png" alt="Pay" class="bloque2imgs">
+                    <p class="title2">Pagar</p>
+                    <p class="texto2">La facturación de tu dispositivo se realiza solamente cuando el dispositivo este
+                        listo,sin lios ni complicaciones</p>
+                </div>
+                <div>
+                    <img src="imagenes/Icon metro-tools.png" alt="Tool" class="bloque2imgs">
+                    <p class="title2">Reparar</p>
+                    <p class="texto2">Se procede a reparar el dispositivo con técnicos especializados con los mejores
+                        estándares de calidad que se puedan encontrar en el mercado.</p>
+                </div>
+            </div>
+            <div>
+                <a href="index2.html"><button class="button1">Solicítala ya</button></a>
+            </div>
+        </div>
+        <div class="bloque3">
+            <p class="title2">Técnicos Especializados</p>
+            <p class="subtitle2">Tu dispositivo está en las mejores manos, con criterios de alta calidad y partes
+                originales</p>
+            <img src="imagenes/FZIyxxiPx6APvjtD.full.png" alt="Phonerepair" class="phonerepair">
+        </div>
+        <div class="bloque4">
+            <div id="bloque41">
+                <p class="title4main">Precios competitivos, que te quedarás sorprendido</p>
+                <p class="subtitle4">Además de utilizar partes originales y mano de obra garantizada, tu reparación
+                    tiene un costo de:</p>
+            </div>
+            <div id="bloque42">
+                <div>
+                    <p class="title4">Bateria</p>
+                    <img src="imagenes/Icon ionic-md-battery-full.png" alt="Battery" class="bloque4imgs">
+                    <p class="texto4">Desde</p>
+                    <p class="title4">$120000 COP*</p>
+                </div>
+                <div>
+                    <p class="title4">Pantalla</p>
+                    <img src="imagenes/Icon ionic-ios-phone-portrait.png" alt="Cellphone" class="bloque4imgs">
+                    <p class="texto4">Desde</p>
+                    <p class="title4">$250000 COP*</p>
+                </div>
+                <div>
+                    <p class="title4">Software</p>
+                    <img src="imagenes/Icon simple-ifixit.png" alt="Software" class="bloque4imgs3">
+                    <p class="texto4">Desde</p>
+                    <p class="title4">$80000 COP*</p>
+                </div>
+            </div>
+            <p class="textonota4">*Revisar precios de acuerdo del modelo a reprar.Sujeto a cambios y disponibilidad</p>
+        </div>
+        <div class="bloque5">
+            <div id="bloque51">
+                <p class="title5main">Dispositivos</p>
+                <p class="subtitle5">Manejamos los principales dispositivos de Apple**</p>
+            </div>
+            <div id="bloque52">
+                <div>
+                    <img src="imagenes/refurb-macbook-air-gold-202002.png" alt="Mac" class="bloque5imgs1">
+                    <p class="title5">iMac</p>
+                </div>
+                <div>
+                    <img src="imagenes/iPhone12Plus.png" alt="iPhone" class="bloque5imgs2">
+                    <p class="title5">iPhone</p>
+                </div>
+                <div>
+                    <img src="imagenes/520px-IPad_2017_tablet.png" alt="iPad" class="bloque5imgs3">
+                    <p class="title5">iPad</p>
+                </div>
+            </div>
+            <p class="textonota">*.Sujeto a cambios y disponibilidad de servivios deacuerdo al dispositivo</p>
+        </div>
+        <div class="bloque6">
+            <img src="imagenes/Campesinos.png" alt="Campesinos" class="bloque6img">
+            <div class="bloque6main">
+                <p id="colombia">Orgullosamente <span id="yellow">Colom</span><span id="blue">bia</span><span
+                        id="red">nos</span></p>
+                <div class="bloque61">
+                    <img src="imagenes/RepairExpress.png" alt="Logo">
+                    <img src="imagenes/Flag_of_Colombia.png" alt="Flag_of_Colombia">
+                </div>
+                <p class="bloque6footer">Somos una empresa Orgullosamente Colombiana, donde ses orígenes son
+                    Santandereanos y nuestra operaciones y técnicos hacen parte de ella</p>
+            </div>
+        </div>
+        <footer class="footer7">
+            <div class="bloque7">
+                <p>Uso de cookies</p>
+                <p>Condiciones de uso</p>
+                <p>Ventas y reembolsos</p>
+                <p>Avisos legales</p>
+                <p>Soporte</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,524 @@
+@font-face {
+    font-family: kollektif;
+    src: url(../kollektif/Kollektif.ttf);
+    font-size: 16px;
+}
+
+/* ESTILOS PARA EL NAVBAR */
+body{
+    font-family: kollektif;
+    font-size: 1vw;
+    overflow-y: hidden;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 8vw;
+    gap: 8vw;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+    width: 15vw;
+}   
+.menu-principal{
+    font-size: 1.2vw;    
+}
+
+.repair-express{
+    font-size: 1.4vw;
+}
+
+.logo{
+    background-image: url(../imagenes/RepairExpress2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    width: 25vw;
+    height: 10vw;
+}
+
+.userID{
+    background-image: url(../imagenes/Imagen\ 3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    position: fixed;
+    width: 5vw;
+    height: 5vw;
+    right: 5vw;
+}
+
+hr{
+    margin: 0vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80%;
+}
+
+/* ESTILOS PARA LA SECCION DE PAGOS*/
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:100vw;
+    height:100vw;
+}
+
+#encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 1.5vw;
+    width: 100vw;
+    height: 40vw;
+}
+
+#encabezado h2{
+    font-size: 1.8vw;
+}
+
+#encabezado p{
+    font-size: 0.9vw;
+    text-align: center;
+    width: 35vw;
+    margin: 0%;
+}
+
+.imagen-pago{
+    background-image: url(../imagenes/pago.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 5vw;
+    height: 2.5vw;
+}
+    
+#cuerpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 160vw;
+    margin-top: 3vw;
+}
+
+#columna1, #columna2,#columna3{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    row-gap: 1vw;
+    width: 21vw;
+    height: 160vw;
+}
+
+/* ESTILOS PARA LOS TITULOS DEL CONTENIDO PRINCIPAL */
+
+#columna1 h3, #columna2 h3{
+    font-size: 1.6vw;
+    margin: 0%;
+}
+
+#columna1 p{
+    width: 17vw;
+    text-align: center;
+}
+
+.nombres,.codigo-postal,.info-tarjeta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    text-align: start;
+    width: 20vw;
+}
+
+.correo-electronico, .num-tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.info-tarjeta #cvv label, .info-tarjeta #fecha-expedicion{
+    text-align: left;
+} 
+
+#columna1 label, #columna2 label{
+    color: gray;
+    font-size: 0.8vw;
+    align-items: start;
+}
+
+/* ESTILOS ANNCHO Y ALTO  PARA LOS INPUTS*/
+#columna1 input{
+    width: 8.5vw;
+    height: 3vw;
+    border: 1px solid gray;
+    border-radius:1.5vw;
+}
+
+.correo-electronico #correo{
+    width: 15vw;
+}
+
+#columna2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    row-gap: 1vw;
+    width: 21vw;
+    height: 160vw;
+    margin-top: 5vw;
+}
+
+.pagos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+}
+
+.visa{
+    width: 8vw;
+    height: 5vw;
+}
+
+.master{
+    width: 4vw;
+    height: 2.5vw;
+}
+
+.american{
+    width: 4vw;
+    height: 2vw;
+}
+
+#columna2 #numero-tarjeta{
+    width: 20vw;
+    height: 3vw;
+    border: 1px solid gray;
+    border-radius:1.5vw;
+    width: 30   vw;
+}
+
+.info-tarjeta div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#cvv{
+    width: 7vw;
+    height: 3vw;
+    border: 1px solid gray;
+    border-radius:1.5vw;
+    text-align: start;
+}
+
+#fecha-expedicion{
+    width: 10vw;
+    height: 3vw;
+    border: 1px solid gray;
+    border-radius:1.5vw;
+    text-align: start;
+}
+
+#columna3 h3{
+    font-size: 1.6vw;
+    text-align: left;
+    width: 21vw;
+    margin: 0%;
+    box-sizing: border-box;
+    padding-bottom: 1.5vw;
+    border-bottom: 2px solid gray;
+}
+
+.fecha-mantenimiento{
+    color: gray;
+    text-align: left;
+    width: 21vw;
+    margin: 0%;
+}
+
+.info-mantenimiento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-mantenimiento{
+    margin: 0%;
+}
+
+.separador2, .separador3{
+    border-bottom: 2px solid gray;
+}
+
+.subtotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    color: gray;
+    width: 21vw;
+}
+
+.subtotal p{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.iva{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    width: 21vw;
+}
+
+.iva p{
+    margin-top: 0%;
+}
+
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 21vw;
+    align-items: center;
+}
+
+.total p{
+    margin: 0vw;
+}
+
+.nota{
+    font-size: 0.8vw;
+    width: 21vw;
+}
+
+#columna3 button{
+    background-color: #0165fa;
+    border: 1px solid #0165fa;
+    width: 12vw;
+    height: 4vw;
+    border-radius: 10vw;
+    font-size: 2vw;
+}
+
+#columna3 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width:435px) {
+
+    body{
+        overflow-y: visible;
+    }
+
+    #navbar{
+        background-color: #fff;
+        position: fixed;
+        height: 10vw;
+    }
+
+    #navbar a{
+    width: 20vw;
+    font-size: 2.2vw;   
+    }
+
+    .userID{
+        position: fixed;
+        width: 5vw;
+        height: 5vw;
+        right: 2vw;
+    }
+
+    .logo{  
+        width: 30vw;
+        height: 8vw;
+    }
+
+    hr{
+        color: black;
+        border: gray;
+        padding-top: 13vw;
+    }
+
+    #principal{
+        height:250vw;
+    }
+
+    #encabezado{
+        padding-top: 3vw;
+        height: 30vw;
+    }
+
+    .imagen-pago{
+        width: 14vw;
+        height: 7.5vw;
+    }
+
+    #encabezado h2{
+        font-size: 5vw;
+        margin-top: 2%;
+    }
+
+    #encabezado p{
+        font-size: 2vw;
+        width: 45vw;
+    }
+
+    #cuerpo{
+        flex-direction: column;
+        justify-content: start;
+        height: 150vw;
+        margin-top: 5vw;
+    }   
+
+    #columna1, #columna2,#columna3{
+        margin-top: 0%;
+        row-gap: 1vw;
+        width: 100vw;
+        height: 40vw;
+    }
+
+    #columna1 h3, #columna2 h3{
+        font-size: 3.5vw;
+        align-content: center;
+    }
+
+    #columna1 p{
+        width: 70vw;
+        text-align: center;
+        font-size: 2.5vw;
+    }
+
+    .nombres,.codigo-postal,.info-tarjeta{
+        width: 70vw;
+    }
+
+    .nombres div,.codigo-postal div,.info-tarjeta div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #columna1 label, #columna2 label{
+        font-size: 2vw;
+    }
+
+    #columna1 input{
+        width: 30vw;
+        height: 3.5vw;
+        border: 1px solid gray;
+        border-radius:1.5vw;
+    }
+
+    .pagos{
+        width: 100vw;
+        height: 20vw;
+    }
+
+    .tarjetas{
+        justify-content: space-evenly;
+        padding-top: 4vw;
+        width: 80vw;
+    }
+
+    .visa{
+        width: 15vw;
+        height: 7.5vw;
+    }
+    
+    .master{
+        width: 14vw;
+        height: 8vw;
+        padding-right: 5vw;
+    }
+    
+    .american{
+        width: 8vw;
+        height: 4vw;
+    }
+
+    .correo-electronico, .num-tarjeta{
+        width: 50vw;
+        align-items: center;
+    }
+    
+    #columna2 #numero-tarjeta{
+        width: 50vw;
+    }
+
+        
+    .info-tarjeta{
+        width: 50vw;
+    }
+
+    #cvv{
+        width: 20vw;
+    }
+
+    #fecha-expedicion{
+        width: 20vw;
+        height: 3.8vw;
+    }
+
+    .info-tarjeta div{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 20vw;
+    }
+
+    #columna3 h3{
+        font-size: 4vw;
+        text-align: center;
+        width: 70vw;
+        padding-bottom: 3vw;
+        border-bottom: 0.3px solid gray;
+    }
+
+    .separador2, .separador3, .total{
+        width: 70vw;
+        height: 20vw;
+    }
+
+    #columna3 p{
+        font-size: 2vw;
+    }
+    .nota{
+        width: 60vw;
+    }
+
+    #columna3 button{
+        width: 20vw;
+        height: 9vw;
+    }
+}
